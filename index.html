@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SIGN IN-UP</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img class="header-logo" src="./images/logo.svg" alt="logo" />
+      <div class="links">
+        <a class="link" href="#">Services</a>
+        <a class="link" href="#">About </a>
+        <a class="link" href="#">Contacts</a>
+      </div>
+      <div class="header-button">
+        <a class="header-btn" href="./pages/login.html">Log in</a>
+        <a href="./pages/register.html" class="header-btn">Open an account</a>
+        <a href="#" class="header-btn">EN</a>
+      </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <div class="section">
+        <div class="container">
+          <div class="wrapper">
+            <img class="section-img" src="./images/logo.svg" alt="logo" />
+            <h1 class="section-title">Welcome to ByTrend!</h1>
+            <p class="section-par">
+              Already have an account?<a
+                href="./pages/login.html"
+                class="section-link"
+                >Log in</a
+              >
+            </p>
+            <div class="forms">
+              <div class="form-section">
+                <form>
+                  <label for="name"
+                    ><p class="section-text">
+                      First name <span class="gh">*</span>
+                    </p></label
+                  >
+                  <input value="Alexander" type="text" id="name" />
+                </form>
+              </div>
+              <div class="form-section1">
+                <form>
+                  <label for="name">
+                    <p id="ladel" class="section-text">
+                      Last name <span class="gh">*</span>
+                    </p>
+                  </label>
+                  <input type="text" id="name" placeholder="Your surname" />
+                </form>
+              </div>
+              <div class="form-section3">
+                <label for="date"
+                  ><p class="section-text2">
+                    Birth date <span class="gh">*</span>
+                  </p></label
+                >
+                <input
+                  type="date"
+                  id="date"
+                  name="
+              date"
+                  placeholder="06.12.1992"
+                />
+              </div>
+              <div class="form-section4">
+                <p class="section-text">Gender <span class="gh">*</span></p>
+                <div class="forms4">
+                  <div class="gender1">
+                    <input id="gender" type="radio" name="male" />
+                    <label id="gender" for="male">Male</label>
+                  </div>
+                  <div class="gender2">
+                    <input id="gender" type="radio" name="male" />
+                    <label id="gender" for="female">Female</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-section5">
+                <form action="skype">Skype</form>
+                <input placeholder="Your login Skype" id="skype" type="text" />
+              </div>
+              <div class="form-section6">
+                <label for="password">Promo</label>
+                <input
+                  id="password"
+                  type="password"
+                  name="password"
+                  placeholder="Your promo"
+                />
+              </div>
+            </div>
+
+            <button class="section-btn">Continu</button>
+          </div>
+          <br />
+          <p class="par">©2020 All Rights Reserved. Lorem Technologies, Inc.</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
